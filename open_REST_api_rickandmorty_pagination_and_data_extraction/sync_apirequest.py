@@ -45,6 +45,6 @@ final.to_csv('./open_REST_api_rickandmorty_pagination_and_data_extraction/sync_c
 
 stop = perf_counter()
 
-print('time taken:', stop - start)
+print('time taken:', stop - start) #Time taken: 20.450044099998195
 
 #open_REST_api_rickandmorty_pagination_and_data_extraction
