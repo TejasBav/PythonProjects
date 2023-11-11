@@ -39,7 +39,7 @@ async def fetch(s, base_url, endpoint, page_number):
     async with s.get(url = base_url + endpoint + f"?page={page_number}") as r:
         if r.status != 200:
             r.raise_for_status()
-        jsondata = await r.json()
+        jsondata = await r.json() #awaiting for all jsons 
         return parse_json(jsondata)
     
 async def fetch_all(s, base_url, endpoint, urls):
@@ -47,7 +47,7 @@ async def fetch_all(s, base_url, endpoint, urls):
     for url in urls:
         task = asyncio.create_task(fetch(s, base_url, endpoint, url))
         tasks.append(task)
-    res = await asyncio.gather(*tasks)
+    res = await asyncio.gather(*tasks) #awaiting for all tasks in list tasks
     return res
 
 
@@ -71,4 +71,4 @@ if __name__ == '__main__':
     start = perf_counter()
     asyncio.run(main())
     stop = perf_counter()
-    print('time taken:', stop - start)
+    print('time taken:', stop - start) #time taken: 1.4714516999956686
