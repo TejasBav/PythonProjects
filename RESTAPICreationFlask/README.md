@@ -63,8 +63,8 @@ Adding add_drink():
 ![image](https://github.com/TejasBav/PythonProjects/assets/148721897/4dc7c3d3-35ff-4ac6-b5ee-2b238e1b5f25)
 
 adding delete_drink()
+
 ![image](https://github.com/TejasBav/PythonProjects/assets/148721897/3062ea8c-2075-42af-bc37-25aeb26a4d4e)
-![image](https://github.com/TejasBav/PythonProjects/assets/148721897/830dce11-eb88-4d15-b7a6-04f7e3b62348)
 
 Deleting drink 3
 ![image](https://github.com/TejasBav/PythonProjects/assets/148721897/3781c020-94a8-4ee3-a425-55dd23dac80e)
