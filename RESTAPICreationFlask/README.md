@@ -1,4 +1,4 @@
-![image](https://github.com/TejasBav/PythonProjects/assets/148721897/830dce11-eb88-4d15-b7a6-04f7e3b62348)#Creating REST API using Flask
+#Creating REST API using Flask
 
 Creating virtual enviroment
 python -m venv .venv
@@ -64,6 +64,7 @@ Adding add_drink():
 
 adding delete_drink()
 ![image](https://github.com/TejasBav/PythonProjects/assets/148721897/3062ea8c-2075-42af-bc37-25aeb26a4d4e)
+![image](https://github.com/TejasBav/PythonProjects/assets/148721897/830dce11-eb88-4d15-b7a6-04f7e3b62348)
 
 Deleting drink 3
 ![image](https://github.com/TejasBav/PythonProjects/assets/148721897/3781c020-94a8-4ee3-a425-55dd23dac80e)
